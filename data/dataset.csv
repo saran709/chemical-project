@@ -1,0 +1,189 @@
+Name,Use,Concern
+Arsenic,"Alloying additives for metals, battery
+grids, cable sheaths, boiler tubes.","Carcinogenic and mutagen
+sometimes can cause fatigue
+and loss of energy and
+dermatitis."
+Cadmium,"Bearing and low melting alloys, brazing
+alloys, fire protection system, basis of
+pigments used in ceramic glazes,
+fungicide.","Flammable in powder form,
+toxic by inhalation of dust or
+fumes, soluble compounds are
+highly toxic."
+Chromium,"Alloying and plating element on metal
+and plastic substrates for corrosion
+resistance, nuclear research, protective
+coating for automotive.","Hexavalent Cr compounds are
+carcinogenic and corrosive on
+tissues, kidney damage."
+Lead,"Storage batteries, gasoline additives,
+piping, tank linings, solder and fusible
+alloys, ammunition.","Toxic by ingestion or inhalation
+of dust or fumes, brain and
+kidney damage, birth defects."
+Mercury,"Amalgams, catalyst, electrical apparatus,
+cathodes for production of chlorine and
+caustic soda, mercury vapor lamps.","Highly toxic by skin absorption
+and inhalation of fumes or
+vapor, toxic to central nervous
+system."
+Silver,"Electronics, xerographic plates, TV
+cameras, photocells, magnetic computer
+cores, solar batteries, catalyst.","Toxic metal, permanent gray
+discoloration of skin, eyes, and
+mucous membrane."
+Copper,"Electronics, alloying metal, cables and
+wires","Toxic metal, skin diseases,
+Williams disease."
+Constituents,Daily (µg/L),
+Cadmium,1.1,
+Chromium,11,
+Copper,4.9,
+Lead,5.6,
+Mercury,2.1,
+Nickel,7.1,
+Zinc,58,
+Arsenic,20,
+Silver,2.3,
+Conventional,Non conventional,
+Chemical precipitation,Sawdust,
+Ion exchange,Coconut husk,
+Electro flotation,Fly ash,
+Membrane separation,Eggshell,
+Electro dialysis,Rice husk,
+Reverse osmosis,Spent grain,
+Solvent extraction,Weeds,
+Time (min),Absorbance,Concentration (mg/l)
+10,0.010,65.54
+20,0.020,160.84
+30,0.025,208.49
+40,0.028,237.06
+50,0.029,246.61
+60,0.029,246.61
+70,0.029,246.61
+80,0.030,256.14
+90,0.032,275.20
+100,0.033,284.73
+110,0.035,303.79
+120,0.038,332.38
+130,0.039,341.91
+140,0.040,351.44
+150,0.042,370.50
+160,0.043,380.03
+170,0.044,389.56
+180,0.045,399.09
+190,0.045,399.09
+200,0.046,408.62
+210,0.048,427.68
+220,0.050,446.74
+230,0.051,456.27
+240,0.052,465.80
+Time (min),Absorbance,Concentration (mg/l)
+30,0.018,141.78
+60,0.019,151.31
+90,0.021,170.37
+120,0.023,189.43
+150,0.023,189.43
+180,0.025,208.49
+210,0.028,237.08
+240,0.033,284.73
+270,0.035,303.79
+300,0.037,322.85
+330,0.038,332.38
+360,0.039,341.91
+390,0.041,360.97
+420,0.045,399.07
+450,0.047,418.17
+480,0.049,437.21
+510,0.051,456.27
+540,0.053,475.33
+Time (min),Absorbance,Concentration (mg/l)
+10,0.005,17.89
+20,0.006,27.42
+30,0.015,113.19
+40,0.023,189.43
+50,0.026,218.02
+60,0.028,237.06
+70,0.030,256.14
+80,0.030,256.14
+90,0.029,246.61
+100,0.032,275.2
+110,0.035,303.79
+120,0.035,303.79
+130,0.039,341.91
+140,0.043,380.03
+150,0.046,408.62
+160,0.048,427.68
+170,0.051,456.27
+180,0.052,465.80
+190,0.052,465.80
+Concentration (mg/L),Absorbance,
+100,0.012,
+200,0.026,
+300,0.035,
+400,0.046,
+Time (min),Amount adsorbed (mg/g),% removal
+10,7.28,86
+20,7.93,67
+30,8.04,58
+40,8.09,52
+50,8.11,50
+60,8.11,50
+70,8.11,50
+80,8.12,48
+90,8.14,44
+100,8.15,43
+110,8.17,39
+120,8.19,33
+130,8.20,31
+140,8.21,29
+150,8.22,26
+160,8.22,24
+170,8.23,22
+180,8.24,20
+190,8.24,18
+200,8.24,18
+210,8.25,14
+220,8.26,10
+230,8.26,8
+240,8.27,7
+Time (min),Amount adsorbed mg/g,% removal
+30,7.87,71
+60,7.90,69
+90,7.96,66
+120,8.01,62
+150,8.01,62
+180,8.04,58
+210,8.09,52
+240,8.15,43
+270,8.17,39
+300,8.19,35
+330,8.19,33
+360,8.20,31
+390,8.21,28
+420,8.24,20
+450,8.25,16
+480,8.25,12
+510,8.26,8
+540,8.27,5
+Time (min),Amount adsorbed mg/g,% removal
+10,5.30,96
+20,6.09,94
+30,7.73,77
+40,8.01,62
+50,8.06,56
+60,8.09,52
+70,8.12,48
+80,8.12,48
+90,8.11,50
+100,8.14,45
+110,8.17,39
+120,8.17,39
+130,8.20,31
+140,8.22,24
+150,8.24,18
+160,8.25,14
+170,8.26,8
+180,8.27,7
+190,8.27,7
