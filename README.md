@@ -35,13 +35,73 @@ The current training pipeline also supports the columns present in model_data.xl
 - Model persistence with feature metadata
 - Reports written to the reports folder
 
-## Usage
+## Quick Start - Automated Pipeline
+
+The fastest way to get predictions and visualizations is using the automated pipeline:
+
+### Windows (Batch File)
+```cmd
+run_analysis.bat data/your_data.csv [temperature] [ph]
+```
+
+Examples:
+```cmd
+# Default: T=25°C, pH=7
+run_analysis.bat data/my_data.csv
+
+# Custom: T=30°C, pH=6
+run_analysis.bat data/my_data.csv 30 6
+```
+
+### Windows (PowerShell)
+```powershell
+.\run_analysis.ps1 -InputFile data/your_data.csv [-Temperature 25] [-pH 7]
+```
+
+Examples:
+```powershell
+# Default settings
+.\run_analysis.ps1 -InputFile data/my_data.csv
+
+# Custom settings
+.\run_analysis.ps1 -InputFile data/my_data.csv -Temperature 30 -pH 6
+```
+
+### Manual Python Command
+```bash
+python src/autorun.py --input data/your_data.csv --temperature 25 --ph 7
+```
+
+### Output Generated
+The automated pipeline creates:
+- **predictions/predictions.csv** - All predictions with features
+- **reports/visualizations/** - Main analysis graphs:
+  - `removal_vs_time_by_concentration.png`
+  - `removal_vs_concentration_by_time.png`
+  - `removal_heatmap.png`
+  - `removal_3d_surface.png`
+- **reports/comparison/** - Comparison analysis across all conditions:
+  - `temperature_effect_heatmap.png`
+  - `ph_effect_heatmap.png`
+  - `temperature_effect_lines.png`
+  - `ph_effect_lines.png`
+  - `3d_comparison.png`
+  - `temperature_difference_heatmap.png`
+  - `ph_difference_heatmap.png`
+- **ANALYSIS_REPORT.md** - Summary report
+
+## Advanced Usage - Manual Steps
+
+For more control over the pipeline:
+
 1) Place your dataset in the project folder.
 2) Install dependencies from requirements.txt.
 3) Train the model:
 	- `python src/train.py --data path_to_dataset --output models/removal_model.joblib --report-dir reports`
-4) Run predictions:
-	- `python src/predict.py --model models/removal_model.joblib --input path_to_input --output predictions/predictions.csv`
+4) Run predictions and visualization:
+	- `python src/predict_and_visualize.py --temperature 25 --ph 7`
+5) Run comparison analysis:
+	- `python src/compare_conditions.py`
 
 The prediction output includes all feature columns plus a `predicted_removal` column.
 
